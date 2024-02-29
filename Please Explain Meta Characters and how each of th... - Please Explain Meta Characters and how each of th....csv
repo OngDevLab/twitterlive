@@ -1,0 +1,15 @@
+Metacharacter,Explanation,Example
+.,Matches any single character (except newline characters),"h.t matches ""hat"", ""hot"", ""hit"""
+^,Matches the start of a string,"^hello matches ""hello world"" but not ""the hello there"""
+$,Matches the end of a string,"world$ matches ""hello world"" but not ""hello the world"""
+*,Matches the preceding character 0 or more times,"colou*r matches ""color"" or ""colour"""
++,Matches the preceding character 1 or more times,"go+gle matches ""google"", ""gooogle"", but not ""go"""
+?,Matches the preceding character 0 or 1 time,"colou?r matches ""color"" or ""colour"""
+[...],Matches a single character from within the brackets,"[bcr]at matches ""bat"", ""cat"", or ""rat"""
+[^...],Matches a single character NOT within the brackets,[^aeiou] matches any consonant
+\d,Matches any digit,\d\d\d-\d\d\d-\d\d\d\d matches a US phone number pattern
+\D,Matches any non-digit character,\D+ matches the spaces between words
+\w,Matches any alphanumeric character or underscore,\w+ matches words in a sentence
+\W,Matches any non-alphanumeric character,\W+ matches punctuation in a sentence
+\s,"Matches any whitespace character (spaces, tabs, newlines)",\s+ matches one or more whitespace characters
+\S,Matches any non-whitespace character,\S+ matches non-blank sections of text
