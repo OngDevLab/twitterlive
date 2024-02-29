@@ -1,7 +1,5 @@
 # Tips to grow on Twitter
 
-1. Post four types of content:
-
 - authority (stuff to make you sound smart)
 - humor (stuff to make you sound sociable)
 - tweets that work (sometimes you find a hidden gem of a tweet, so make note)
@@ -21,3 +19,5 @@
 - random follower funnel 
 
 5. Automate stuff (IYKYK)
+
+6. If someone asks you for a person, its Kiernan Shipka
